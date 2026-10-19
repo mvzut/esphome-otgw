@@ -49,10 +49,10 @@ SENSOR_CONFIG = {
     SENSOR_CENTRAL_HEATING_WATER_PRESSURE: OpenThermGatewaySensorConfig(18, "F88"),
     SENSOR_ROOM_TEMPERATURE: OpenThermGatewaySensorConfig(24, "F88"),
     SENSOR_BOILER_WATER_TEMPERATURE: OpenThermGatewaySensorConfig(25, "F88"),
-    SENSOR_BURNER_STARTS: OpenThermGatewaySensorConfig(116, "U16", clear_on_timeout=False),
-    SENSOR_BURNER_OPERATION_HOURS: OpenThermGatewaySensorConfig(120, "U16", clear_on_timeout=False),
     SENSOR_DHW_TEMPERATURE: OpenThermGatewaySensorConfig(26, "F88"),
     SENSOR_RETURN_WATER_TEMPERATURE: OpenThermGatewaySensorConfig(28, "F88"),
+    SENSOR_BURNER_STARTS: OpenThermGatewaySensorConfig(116, "U16", clear_on_timeout=False),
+    SENSOR_BURNER_OPERATION_HOURS: OpenThermGatewaySensorConfig(120, "U16", clear_on_timeout=False),
 }
 
 
